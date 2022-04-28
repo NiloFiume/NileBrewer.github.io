@@ -1,0 +1,60 @@
+/* Nile Brewer  */
+/* CSS Style sheet for Portfolio Resume page */
+/* Start date 11-26-21 */
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   Header: top of Resume page
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:wght@500&display=swap');
+/* imports the font for the page */
+body{
+  background-color: rgb(221, 208, 184);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 2%;
+    text-decoration: none;
+  }
+
+.nav__links{
+  list-style: none;
+}
+  
+.nav__links li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+.nav__links li a:hover{
+  color: rgb(84, 97, 245);;
+}
+
+.written{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  /* The text description for list elements and links */
+  

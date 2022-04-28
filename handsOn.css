@@ -1,0 +1,132 @@
+ /* Nile Brewer  */
+/* CSS Style sheet for Portfolio Resume page */
+/* Start date 11-26-21 */
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   Header: top of Resume page
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:wght@500&display=swap');
+/* imports the font for the page */
+body{
+    background-image: url(noita-digital-QZX8jbK1xEw-unsplash.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 2%;
+    text-decoration: none;
+  }
+
+.nav__links{
+  list-style: none;
+}
+  
+.nav__links li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.nav__links li a:hover{
+  color: rgb(84, 97, 245);;
+}
+
+.written{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  /* The text description for list elements and links */
+  
+ /*/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   projects container
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+h1{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    /* padding-top: 5px; */
+  }
+
+.main-project-container{
+    /* display: flex; */
+    /* text-align: center; */
+  }
+  
+  #sectionLabel{
+    text-align: center;
+  }
+  
+  .projects-container{
+    /* overflow: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    /* padding-block: 40px;  */
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+    
+  }
+  /* This treats all 4 projects as one object */
+  
+  .project-card{
+    padding: .5em;
+  }
+  /* https://html-css-js.com/css/generator/box-shadow/
+  This is from a shadow generator, follow link above, creates shadow for project boxes */
+  
+  .project_preview{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 470px;
+    border: 1px solid;
+    -webkit-box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54); 
+    box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54);
+    background-color: rgb(61, 61, 122);
+    /* padding: 5px */
+  }
+  
+  .project_title{
+    color: white;
+    margin: 0;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .project_intro{
+    color: white;
+    font-size: 16px;
+  }
+  
+  .thumbnail{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    display: flex;
+    width: 470px;
+    height: 250px;
+    object-fit: cover;
+  }

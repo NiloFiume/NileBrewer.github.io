@@ -1,0 +1,78 @@
+/* Nile Brewer  */
+/* CSS Style sheet for Portfolio Resume page */
+/* Start date 11-26-21 */
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   Header: top of Resume page
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:wght@500&display=swap');
+/* imports the font for the page */
+*{
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1px 2%;
+    text-decoration: none;
+    background: none;
+  }
+
+.nav__links{
+  list-style: none;
+  background: none;
+}
+  
+.nav__links li{
+  display: inline-block;
+  padding: 0px 10px;
+  background: none;
+
+}
+
+.nav__links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: rgb(255, 252, 252);
+  font-size: large;
+  background: none;
+
+}
+
+.nav__links li a:hover{
+  color: rgb(84, 97, 245);
+  background: none;
+
+}
+
+.written{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background: none;
+  }
+
+ li, h2, a, strong, center, ul, nav, div{
+     background-image: none;
+ }
+
+  /* li{
+      background: none;
+  } */
+  /* The text description for list elements and links */
+  
