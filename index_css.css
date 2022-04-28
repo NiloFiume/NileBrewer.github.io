@@ -63,7 +63,7 @@ body{
   background-image: url(ben-griffiths-l7R85WBKl1c-unsplash.jpg);
   /* background-image: url(noita-digital-QZX8jbK1xEw-unsplash.jpg); */
   background-repeat:cover; 
-  background-size: 90em;
+  background-size: 80em;
 }
   
 /* h1{font-size: 56px;}
@@ -354,6 +354,13 @@ This is from a shadow generator, follow link above, creates shadow for project b
   color: white;
   margin: 0;
   text-align: center;
+  /* justify-content: center; */
+}
+
+.project_link{
+  color: white;
+  margin: 0;
+  text-align: left;
   /* justify-content: center; */
 }
 
