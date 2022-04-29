@@ -53,7 +53,7 @@ margin: 0 auto;
 
 @media screen and (max-width: 1200px){
   .main-container{
-    width: 97%;
+    width: 99%;
   }
 }
 /* not necessary upper 2 sections */
@@ -62,11 +62,7 @@ margin: 0 auto;
 body{
   background-image: url(ben-griffiths-l7R85WBKl1c-unsplash.jpg);
   /* background-image: url(noita-digital-QZX8jbK1xEw-unsplash.jpg); */
-  background-repeat: repeat;
-  /* background-size: cover;
-  backface-visibility: unset;
-  background-position-x: left;
-  background-clip: padding-box; */
+  background-repeat:cover; 
   background-size: 90em;
 }
   
@@ -174,25 +170,38 @@ I did it in .logo below so that each image can be individually edited.*/
 //////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .myInfo{
-  /* max-width: 1300px; */
+  max-width: 1300px;
   margin: 5% 5%;
   line-height: 1.65;
-  padding: 1% 16%;
+  padding-left: 1%;
+  padding-right: 1%;
+  
+  /* padding: 1% 16%; */
   text-align: left;
   justify-content: left;
-  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-  padding-bottom: 19em;
+  /* background-color: #06A8FF; */
+  padding-bottom: 17em;
+}
+.myInfo p{
+font-size: xx-large;
 }
 
 .me{
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
- /* padding: 0;
-margin: 1px; */
-} 
+  
+}
+/* .me 
+.me #name{
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 38px;
+  color: aliceblue;
+  text-decoration: none;
+  white-space: nowrap;
+    font-family: 'Beau Rivage', cursive;
+
+} */
 
 .main{
   flex: 1;
@@ -224,14 +233,16 @@ margin: 1px; */
               0 0 60px rgb(84, 97, 245),
               0 0 150px rgb(84, 97, 245);
 }
-
-#intro{
+/* Below is the size of my name to try and make it fit */
+#name{
   font-family: "montserrat", sans-serif;
+  /* font-family: 'Beau Rivage', cursive; */
   font-weight: 500;
-  font-size: 13px;
+  font-size: 27px;
   color: aliceblue;
   /* color: blue; */
   text-decoration: none;
+  white-space: nowrap;
 }
 
 h1{
@@ -256,6 +267,15 @@ h2{
   white-space: nowrap;
 }
 /* The text description for list elements and links */
+h4{
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: aliceblue;
+  /* color: blue; */
+  text-decoration: none;
+  white-space: nowrap;
+}
 
 button{
   font-family: "montserrat", sans-serif;
@@ -321,8 +341,8 @@ button{
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .main-project-container{
-  /* display: flex;
-  text-align: center; */
+  /* display: flex; */
+  /* text-align: center; */
 }
 
 #sectionLabel{
@@ -362,13 +382,6 @@ This is from a shadow generator, follow link above, creates shadow for project b
   color: white;
   margin: 0;
   text-align: center;
-  /* justify-content: center; */
-}
-
-.project_link{
-  color: white;
-  margin: 0;
-  text-align: left;
   /* justify-content: center; */
 }
 
