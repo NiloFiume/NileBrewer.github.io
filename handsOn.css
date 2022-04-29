@@ -12,9 +12,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Montserrat:wght@500&display=swap');
 /* imports the font for the page */
 body{
-    background-image: url(noita-digital-QZX8jbK1xEw-unsplash.jpg);
+    /* background-image: url(pawel-czerwinski-FCDsvEozIN4-unsplash.jpg); */
+    background-color: rgb(28, 28, 29);
     background-size: cover;
 }
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 header{
     display: flex;
@@ -41,7 +50,7 @@ header{
 }
 
 .nav__links li a:hover{
-  color: rgb(84, 97, 245);;
+  color: rgb(100, 84, 245);;
 }
 
 .written{
@@ -89,12 +98,15 @@ h1{
     /* padding-block: 40px;  */
     /* padding-top: 10px; */
     padding-bottom: 10px;
+    /* padding: 50px; */
     
   }
   /* This treats all 4 projects as one object */
   
   .project-card{
-    padding: .5em;
+    padding-top: .5em;
+    /* padding-left:  10px;
+    padding-right: 10px; */
   }
   /* https://html-css-js.com/css/generator/box-shadow/
   This is from a shadow generator, follow link above, creates shadow for project boxes */
@@ -102,6 +114,8 @@ h1{
   .project_preview{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    padding-left: 10px;
+    /* padding the writing on the cards */
     width: 470px;
     border: 1px solid;
     -webkit-box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54); 

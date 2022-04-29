@@ -370,6 +370,9 @@ This is from a shadow generator, follow link above, creates shadow for project b
 .project_preview{
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   width: 300px;
   border: 1px solid;
   -webkit-box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54); 
