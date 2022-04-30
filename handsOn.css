@@ -53,21 +53,6 @@ header{
   color: rgb(100, 84, 245);;
 }
 
-.written{
-    margin-top: 10px;
-    margin-bottom: 100px;
-    margin-right: 100px;
-    margin-left: 80px;
-    font-family: "montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: black;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-  }
-  /* The text description for list elements and links */
-  
  /*/////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //   projects container
@@ -82,8 +67,7 @@ h1{
   }
 
 .main-project-container{
-    /* display: flex; */
-    /* text-align: center; */
+    
   }
   
   #sectionLabel{
@@ -91,12 +75,12 @@ h1{
   }
   
   .projects-container{
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around; 
-    /* padding-block: 40px;  */
-    /* padding-top: 10px; */
+    padding-block: 40px; 
+    padding-top: 10px;
     padding-bottom: 10px;
     /* padding: 50px; */
     
@@ -105,8 +89,8 @@ h1{
   
   .project-card{
     padding-top: .5em;
-    /* padding-left:  10px;
-    padding-right: 10px; */
+    padding-bottom: 1.5em;
+    /*padding around the cards */
   }
   /* https://html-css-js.com/css/generator/box-shadow/
   This is from a shadow generator, follow link above, creates shadow for project boxes */
@@ -115,12 +99,14 @@ h1{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     padding-left: 10px;
-    /* padding the writing on the cards */
-    width: 470px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 300px;
     border: 1px solid;
     -webkit-box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54); 
     box-shadow: 7px 7px 14px 1px rgba(0,0,0,0.54);
     background-color: rgb(61, 61, 122);
+    padding: 15px
     /* padding: 5px */
   }
   
@@ -128,7 +114,6 @@ h1{
     color: white;
     margin: 0;
     text-align: center;
-    /* justify-content: center; */
   }
   
   .project_intro{
@@ -140,7 +125,7 @@ h1{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     display: flex;
-    width: 470px;
+    width: 300px;
     height: 250px;
     object-fit: cover;
   }
