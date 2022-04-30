@@ -72,6 +72,13 @@ H4{
     text-align: center;
 }
 
+p.pIntro{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
 .main-project-container{
     
   }
