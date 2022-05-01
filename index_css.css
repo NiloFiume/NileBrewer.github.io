@@ -332,6 +332,38 @@ button{
   }
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//   About Me
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.mainColumn{
+
+padding: 1px;
+}
+
+.mainColumn p{
+  font-size: 20px;
+}
+
+h2.skills{
+font-size: 29px;
+text-align: center;
+}
+
+.secondColumn{
+  display: flex;
+  justify-content: space-around;
+}
+
+p.secondColumn{
+  font-family: "montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 21px;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+}
+
 p.moreAbout{
   text-align: center;
   justify-content: center;
